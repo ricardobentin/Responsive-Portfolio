@@ -326,6 +326,45 @@ p {
     background-color: orange;
 }
 
+.responsiveimage{
+    width: 100%;
+    height: auto;
+}
+
+.label {
+    width: 100%;
+    height: auto;
+}
+
+#hangman {
+    width: 260px;
+    height: 160px;
+    margin-right: 5px;
+
+}
+#rpg {
+    width: 260px;
+    height:160px;
+    
+}
+#trivia {
+    width: 260px;
+    height: 160px;
+    margin-right: 5px;
+    
+}
+#rutgers {
+    width: 260px;
+    height: 160px;
+
+}
+#rps {
+    width: 260px;
+    height: 160px;
+   
+}
+
+
 }
 
 /* This is for what will happen when the screen is at 768px or less */
@@ -333,6 +372,23 @@ p {
 #content {
     background-color: blue;
 }
+#ricardo {
+    width: 250px;
+    height: auto;
+}
+#content {
+    width: 95%;
+    margin-left: 20px;
+}
+#namebox {
+       left: 20px;
+
+}
+
+#links{
+    right: 5px;    
+}
+
 
 }
 
@@ -340,6 +396,53 @@ p {
 @media screen and (max-width: 640px) {
 #content {
     background-color: black;
+}
+
+
+#namebox {
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    position: fixed;
+    font-weight: bold;
+    left: 0px;
+    top: 0px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+ 
+}
+#links{
+    position: fixed;
+    clear: both;
+    padding: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    top: 60px;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    
+}
+#navcontent {
+    height: 120px;
+    padding: 10px;
+  
+    
+}
+nav {
+    height: 122px;
+    clear: both;
+    border: none;
+
 }
 
 }
