@@ -62,6 +62,7 @@ nav {
     border-style: solid;
     border-width: thin;
     margin-left: 60px;
+    max-width: 960px;
 
 }
 
@@ -123,8 +124,8 @@ h4 {
 #hangman {
 float: left;
 margin-right: 30px;
-width: 300px;
-height: 200px;
+width: 280px;
+height: 180px;
 margin-top:16px;
 }
 
@@ -150,9 +151,9 @@ margin-top:16px;
 }
 
 #rpg {
-    width: 300px;
-    height: 200px;
-    float: left;
+    width: 280px;
+    height: 180px;
+    float: right;
     margin-top:16px;
 }
 
@@ -183,8 +184,8 @@ margin-top:16px;
     margin-right: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 300px;
-    height: 200px;
+    width: 280px;
+    height: 180px;
 }
 
 #trivialabel {
@@ -209,10 +210,10 @@ margin-top:16px;
 }
 
 #rutgers {
-    Float: left;
+    Float: right;
     margin-top: 30px;
-    width: 300px;
-    height: 200px;
+    width: 280px;
+    height: 180px;
 }
 
 #rutgerslabel {
@@ -240,8 +241,8 @@ margin-top:16px;
 #rps {
     clear: both;
     margin-top: 30px;
-    width: 300px;
-    height: 200px;
+    width: 280px;
+    height: 180px;
 }
 
 #rpslabel {
@@ -267,8 +268,13 @@ margin-top:16px;
 }
 
 img {
-    height: 200px; 
-    width: 300px; 
+    /* height: 200px; 
+    width: 300px;  */
+}
+
+.responsiveimage {
+    height: auto;
+    width: 100%;
 }
 
 p {
