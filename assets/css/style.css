@@ -1,7 +1,5 @@
 * {
-    box-sizing: border-box;
-   /* border: 1px solid black;*/ /*this is to add a border around every element!*/ 
-   
+    box-sizing: border-box;  
 }
 body {
     background-image: url("../images/Background.png");
@@ -303,4 +301,19 @@ p {
 
 #contact {
     padding-left: 10px;
+}
+
+/* This is for what will happen when the screen is at 980px */
+@media screen and (max-width: 980px) {
+
+}
+
+/* This is for what will happen when the screen is at 768px */
+@media screen and (max-width: 768px) {
+
+}
+
+/* This is for what will happen when the screen is at 640px */
+@media screen and (max-width: 640px) {
+
 }
