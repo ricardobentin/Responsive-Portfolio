@@ -21,8 +21,8 @@ nav {
 }
 
 #navcontent {
-    width: 960px;
-    padding: 50px;
+    width: 100%;
+    padding: 30px;
     margin: 0 auto;
 }
 
@@ -32,13 +32,14 @@ nav {
     color: white;
     width: 220px;
     height: 60px;
-    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 24px;
     position: absolute;
     font-weight: bold;
-    left: 200px;
-    top: 40px;
+    left: 60px;
+    top: 0px;
     font-family: Georgia, Times, "Times New Roman", serif;
  
 }
@@ -46,23 +47,22 @@ nav {
     position: absolute;
     padding: 20px;
     height: 60px;
-    top: 40px;
-    right: 200px;
+    top: 5px;
+    right: 40px;
     font-family: Georgia, Times, "Times New Roman", serif;
     
 }
 
 #content {
     clear: both;
-    width: 960px;
-    margin: 0 auto;
+    width: 66%;
     padding: 20px;
     background-color: #ffffff;
     border-color: #dddddd;
     border-style: solid;
     border-width: thin;
-    margin-left: 198px;
-    margin-right: 198px;
+    margin-left: 60px;
+
 }
 
 hr {
@@ -179,6 +179,7 @@ margin-top:16px;
 
 #trivia {
     float: left;
+    clear: left;
     margin-right: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -303,17 +304,26 @@ p {
     padding-left: 10px;
 }
 
-/* This is for what will happen when the screen is at 980px */
+/* This is for what will happen when the screen is at 980px or less */
 @media screen and (max-width: 980px) {
+#content {
+    background-color: orange;
+}
 
 }
 
-/* This is for what will happen when the screen is at 768px */
+/* This is for what will happen when the screen is at 768px or less */
 @media screen and (max-width: 768px) {
+#content {
+    background-color: blue;
+}
 
 }
 
-/* This is for what will happen when the screen is at 640px */
+/* This is for what will happen when the screen is at 640px or less */
 @media screen and (max-width: 640px) {
+#content {
+    background-color: black;
+}
 
 }
