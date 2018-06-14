@@ -288,6 +288,10 @@ p {
     margin-top: 16px;
 }
 
+form {
+    color: #777777;
+}
+
 #band {
     color: #E89F0C;
     text-decoration: underline;
@@ -365,7 +369,8 @@ p {
 /* This is for what will happen when the screen is at 768px or less */
 @media screen and (max-width: 768px) {
 #content {
-    background-color: blue;
+    background-color: white;
+    margin-bottom: 20px;
 }
 #ricardo {
     width: 250px;
@@ -382,6 +387,85 @@ p {
 
 #links{
     right: 5px;    
+}
+
+#hangman {
+    width: 48%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+  
+}
+
+#hangmanlabel {
+    padding-top: 12px;
+    bottom: 60px;
+}
+
+#rpg {
+    width: 48%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    margin-top: 16px;
+
+}
+
+#rpglabel {
+    padding-top: 12px;
+    bottom: 60px;
+}
+
+#trivia {
+    width: 48%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+
+}
+
+#trivialabel {
+    padding-top: 12px;
+    bottom: 60px;
+}
+
+#rutgers {
+    width: 48%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  
+}
+
+#rutgerslabel {
+    padding-top: 12px;
+    bottom: 60px;
+}
+
+#rps {
+    width: 48%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+
+
+}
+
+#rpslabel {
+    padding-top: 12px;
+    bottom: 60px;
+}
+
+h4 {
+    font-size: 18px;
+    padding: 0px;
+    bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
 }
 
 
@@ -514,8 +598,6 @@ nav {
     padding-bottom: 10px;
     margin-bottom: 25px;
     margin-top: 25px;
-  
-
 
 }
 
@@ -537,6 +619,8 @@ h4 {
     
 }
 
-
+input {
+    margin-bottom: 10px;
+}
 
 }
