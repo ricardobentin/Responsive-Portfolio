@@ -55,14 +55,13 @@ nav {
 
 #content {
     clear: both;
-    width: 66%;
+    max-width: 960px;
     padding: 20px;
     background-color: #ffffff;
     border-color: #dddddd;
     border-style: solid;
     border-width: thin;
-    margin-left: 60px;
-    max-width: 960px;
+    margin: 0 auto;
 
 }
 
